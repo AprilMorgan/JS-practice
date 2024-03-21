@@ -24,6 +24,7 @@ h3.style = ["color: blue;"];
 container.appendChild(h3);
 
 const container2 = document.querySelector("#container2");
+container2.style = ["background-color: pink; border-style: solid;"];
 
 const h1 = document.createElement("div");
 h1.classList.add("h1");
